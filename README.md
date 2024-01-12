@@ -1,3 +1,9 @@
+# Important Note
+
+Originally hosted on CodeSandbox, deployment has now been migrated to Vercel:
+Find it here: https://react-router-ts-example.vercel.app/
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
