@@ -1,8 +1,8 @@
-import { useState } from "react";
-import viteLogo from "./vite.svg";
+import { useState } from "react"; 
+import viteLogo from "../assets/vite.svg"; 
 import "../App.css";
 
-function About() {
+function Home() {
   const [count, setCount] = useState(0);  
  
   return (
@@ -10,7 +10,7 @@ function About() {
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+        </a> 
       </div>
       <h1>ABOUT PAGE</h1>
       <div className="card">
@@ -28,4 +28,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
