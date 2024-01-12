@@ -2,7 +2,7 @@ import { useState } from "react";
 import viteLogo from "../assets/vite.svg"; 
 import "../App.css";
 
-function Home() {
+function About() {
   const [count, setCount] = useState(0);  
  
   return (
@@ -28,4 +28,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
